@@ -1,0 +1,74 @@
+
+body {
+  background-image: url('images/headphones_hero_1.jpg');  
+  /* You can add more styles or properties as needed */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.container {
+  /* Add any styles for your content container */
+  padding: 20px;
+}
+
+/* nav bar */ 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.logo-link {
+  text-decoration: none;
+  color: black; 
+  font-size: 20px;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px; /* Adjust the spacing between buttons */
+}
+
+nav ul li:last-child {
+  margin-right: 200px; /* Remove margin for the last button */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white; /* Adjust the color as needed */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+/* the paragraph body */ 
+.container {
+  /* Add any styles for your content container */
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: tomato;
+  border-radius: 20px;
+}
